@@ -1,7 +1,6 @@
-using System.Security.Authentication.ExtendedProtection;
-using JwtStore.Core.SharedContext.ValueObjects;
+using JwtStore.Core.Contexts.SharedContext.ValueObjects;
 
-namespace JwtStore.Core.AccountContext.ValueObjects;
+namespace JwtStore.Core.Contexts.AccountContext.ValueObjects;
 
 public class Verification : ValueObject
 {
